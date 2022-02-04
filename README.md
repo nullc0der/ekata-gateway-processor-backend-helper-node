@@ -10,9 +10,8 @@ const { createPaymentForm } = require('@ekataio/ekata-gateway-processor-helper')
 createPaymentForm({
     amount: 100,
     fiatCurrency: 'USD',
-    apiKey: 'p1YnsifSPhkJYWMfJRv77x5gD10J931bOtaTKd3Gi4U',
-    projectID: 'd9db8de9-5412-459a-804c-735460b3706c',
-    testnet: true,
+    apiKey: '',
+    projectID: '',
 })
     .then((formData) => {
         console.log(formData)
