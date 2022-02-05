@@ -32,7 +32,7 @@ const { verifyPayload } = require('@ekataio/ekata-gateway-processor-helper')
 if (
     verifyPayload({
         payload: req.body,
-        signatureSecret: 'zWrXQ8rkh7mMWrLtOLvG715MuVMveCvnfVjmGckhMuc',
+        signatureSecret: '',
     })
 ) {
     res.json({ success: true })
